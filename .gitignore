@@ -1,0 +1,18 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ignoring data files that cannot be uploaded to GitHub
+Data_Sources/county_market_tracker.tsv000
