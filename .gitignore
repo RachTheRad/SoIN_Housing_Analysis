@@ -15,4 +15,4 @@ env.bak/
 venv.bak/
 
 # ignoring data files that cannot be uploaded to GitHub
-Data_Sources/county_market_tracker.tsv000
+Data_Sources/county_market_tracker_clean.zip
