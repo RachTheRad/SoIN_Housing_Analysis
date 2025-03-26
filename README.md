@@ -19,23 +19,21 @@ The datasets used in this project containsinformation housing prices and standar
 
 The project is organized as follows:
 
-- **Data Exploration:** Jupyter notebooks or scripts to explore the dataset.
+- **Data Exploration:** I utilized Jupyter notebooks to explore the dataset.
 
-- **Analysis:** Using Python with the  Pandas package to clean the data.
+- **Analysis:** Used Python with the Pandas package to clean the data.
 
-- **Visualizations :** Using Matplotlib, Plotly, and Seaborn to visualize my findings. 
+- **Visualizations :** Used Matplotlib to visualize my findings.
 
-- **Dashboard:** Additionally generat of the data dashboard. [Tableau](https://public.tableau.com/app/discover/viz-of-the-day)
 
 ## Features Utilized for the project
 
   | Feature        | Description                           |
   |----------------|---------------------------------------|
-  | Read TWO data files| Used 2 CSV files found via realtor data centers and DOE in Indiana         |
+  | Read TWO data files| Used 2 CSV files found via realtor data centers and DOE in Indiana (the DOE file was split into 4 separate CSVs before reading into the Jupytper notebook.|
   | Clean your data and perform a pandas merge with your two data sets, then calculate some new values based on the new data set.      | Cleaned my data and merged them with pandas. The calculated stats from various data points |
-  | Make 3 matplotlib, and Plotly | Made various plots to show off my findings. |
-  | Make a Tableau dashboard      | Made a dashboard with my findings. [Tableau](https://public.tableau.com/app/discover/viz-of-the-day) |
-  | Utilize a virtual environment      | Made a venv for this project to keep my computer clean. |
+  | Make 3 matplotlib plots | Made various plots to show off my findings. |
+  | Utilize a virtual environment      | Made a venv for this project. |
   | Create a Data Dictionary for your project | Created a Data Dictionary specific to this project. |
   | Notate your code with markdown cells in Jupyter Notebook | Included in my code, you will find clear notes describing each code block. |
 
@@ -49,7 +47,14 @@ To run this project, follow these steps:
 
 ## Dependencies
 
-List any dependencies or libraries used in the project.
+Python
+Pandas
+Jupyter Notebooks
+Matplotlib
+
+AI (ChatGPT and Chatbot Arena via LMSYS.org) was consulted for explanations on why certain parts of code worked and to troubleshoot errors.
+
+
 
 ###  Virtual Environment Instructions
 ---
