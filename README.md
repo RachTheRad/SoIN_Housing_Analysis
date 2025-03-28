@@ -1,4 +1,4 @@
-# SoIN_Housing_Analysis -  Code: You Data Analytics Capstone Project
+# Southern Indiana Housing and Public Education Analysis -  Code: You Data Analytics Capstone Project
 Captstone project for Code: You exploring the relationships between housing availability, prices, and schools in Southern Indiana.
 
 
