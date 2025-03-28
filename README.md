@@ -23,7 +23,9 @@ The project is organized as follows:
 
 - **Analysis:** Used Python with the Pandas package to clean the data.
 
-- **Visualizations :** Used Matplotlib to visualize my findings.
+- **Visualizations:** Used Matplotlib to visualize my findings.
+
+- **Final Analysis:** After cleaning data and reviewing the visualized, final analysis is given. 
 
 
 ## Features Utilized for the project
@@ -41,9 +43,10 @@ The project is organized as follows:
 
 To run this project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-project.git`
-2. Install the necessary dependencies: `pip install -r requirements.txt`
-3. Explore the Jupyter notebooks or scripts in the respective folders.
+1. Clone the repository: `git clone https://github.com/your-username/your-project.git` down to an easily accessible location on your computer using GitBash or the Terminal on Mac. 
+2. Install the necessary dependencies: `pip install -r requirements.txt` via the Terminal in your IDE/Git Bash or the Terminal in Mac.
+3. Download the County Market Tracker file from Kaggle [County Market Tracke](https://www.kaggle.com/datasets/rachelradwanski/real-estate-market-tracker-by-county/data). Save it in the same place as the project. 
+3. Open HA_Cap_NB1.ipynb and run the code blocks in order. 
 
 ## Dependencies
 
@@ -60,7 +63,7 @@ AI (ChatGPT and Chatbot Arena via LMSYS.org) was consulted for explanations on w
 ---
 1. After you have cloned the repo to your machine, navigate to the project 
 folder in GitBash/Terminal.
-1. Create a virtual environment in the project folder. 
+1. Create a virtual environment in the project folder via the Terminal in your IDE, Git Bash, or the Terminal in Mac.
 1. Activate the virtual environment.
 1. Install the required packages. 
 1. When you are done working on your repo, deactivate the virtual environment.
