@@ -28,17 +28,6 @@ The project is organized as follows:
 - **Final Analysis:** After cleaning data and reviewing the visualized, final analysis is given. 
 
 
-## Features Utilized for the project
-
-  | Feature        | Description                           |
-  |----------------|---------------------------------------|
-  | Read TWO data files| Used 2 CSV files found via realtor data centers and DOE in Indiana (the DOE file was split into 4 separate CSVs before reading into the Jupytper notebook.|
-  | Clean your data and perform a pandas merge with your two data sets, then calculate some new values based on the new data set.      | Cleaned my data and merged them with pandas. The calculated stats from various data points |
-  | Make 3 matplotlib plots | Made various plots to show off my findings. |
-  | Utilize a virtual environment      | Made a venv for this project. |
-  | Create a Data Dictionary for your project | Created a Data Dictionary specific to this project. |
-  | Notate your code with markdown cells in Jupyter Notebook | Included in my code, you will find clear notes describing each code block. |
-
 ## Getting Started
 
 To run this project, follow these steps:
@@ -47,6 +36,36 @@ To run this project, follow these steps:
 2. Install the necessary dependencies: `pip install -r requirements.txt` via the Terminal in your IDE/Git Bash or the Terminal in Mac.
 3. Download the County Market Tracker file from Kaggle [County Market Tracke](https://www.kaggle.com/datasets/rachelradwanski/real-estate-market-tracker-by-county/data). Save it in the same place as the project. 
 3. Open HA_Cap_NB1.ipynb and run the code blocks in order. 
+
+##  Virtual Environment Instructions
+---
+1. After you have cloned the repo to your machine, navigate to the project 
+folder in GitBash/Terminal.
+1. Create a virtual environment in the project folder via the Terminal in your IDE, Git Bash, or the Terminal in Mac.
+1. Activate the virtual environment.
+1. Install the required packages. 
+1. When you are done working on your repo, deactivate the virtual environment.
+
+## Virtual Environment Commands
+
+| Command | Linux/Mac | GitBash |
+|---------|-----------|---------|
+| Create | `python3 -m venv venv` | `python -m venv venv` |
+| Activate | `source venv/bin/activate` | `source venv/Scripts/activate` |
+| Install | `pip install -r requirements.txt` | `pip install -r requirements.txt` |
+| Deactivate | `deactivate` | `deactivate` |
+
+
+## Features Utilized for the project
+
+  | Feature        | Description                           |
+  |----------------|---------------------------------------|
+  | Read TWO data files| Used 2 CSV files found via realtor data centers and DOE in Indiana (the DOE file was split into 4 separate CSVs before reading into the Jupytper notebook.)|
+  | Clean your data and perform a pandas merge with your two data sets, then calculate some new values based on the new data set.      | Cleaned my data and merged them with pandas. Then calculated stats from various data points |
+  | Make 3 matplotlib plots | Made various plots to show off my findings. |
+  | Utilize a virtual environment      | Made a venv for this project. |
+  | Create a Data Dictionary for your project | Created a Data Dictionary specific to this project. |
+  | Notate your code with markdown cells in Jupyter Notebook | Included in my code, you will find clear notes describing each code block. |
 
 ## Dependencies
 
@@ -58,21 +77,3 @@ Matplotlib
 AI (ChatGPT and Chatbot Arena via LMSYS.org) was consulted for explanations on why certain parts of code worked and to troubleshoot errors.
 
 
-
-###  Virtual Environment Instructions
----
-1. After you have cloned the repo to your machine, navigate to the project 
-folder in GitBash/Terminal.
-1. Create a virtual environment in the project folder via the Terminal in your IDE, Git Bash, or the Terminal in Mac.
-1. Activate the virtual environment.
-1. Install the required packages. 
-1. When you are done working on your repo, deactivate the virtual environment.
-
-Virtual Environment Commands
-
-| Command | Linux/Mac | GitBash |
-|---------|-----------|---------|
-| Create | `python3 -m venv venv` | `python -m venv venv` |
-| Activate | `source venv/bin/activate` | `source venv/Scripts/activate` |
-| Install | `pip install -r requirements.txt` | `pip install -r requirements.txt` |
-| Deactivate | `deactivate` | `deactivate` |
